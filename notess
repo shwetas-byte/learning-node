@@ -1,0 +1,24 @@
+Day1:----10/9/26
+client side -- sends request //browser --- html,css,js,reactjs
+server side --sends response  //backend  --- node,express,django..
+
+node js is a runtime environment whuch helps to run the js outside the browser ie cmd,terminall
+
+drawback of js:
+1. operating system to operate nhi kr payenge only browser pe work krega means file create nhi kr payenge etc bhut si cheeje
+2. database connect nhi hotaa
+
+
+js modules are of two types:'
+1. Common js modules:
+isme import ke liye --- require()
+export ke liye --- module.exports()
+
+2. es js modules
+import
+export
+
+command for runnind js outside browser:
+node file_name --- extensionn likho ya nhi likho by default js hi extension support krta h
+
+for multiple eport we do object export and import bhi obj hi hoga
