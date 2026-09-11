@@ -22,3 +22,7 @@ command for runnind js outside browser:
 node file_name --- extensionn likho ya nhi likho by default js hi extension support krta h
 
 for multiple eport we do object export and import bhi obj hi hoga
+
+../ jb ek directory bhr ana hoga
+
+./file_name/file_name  jb kisi folder ke andr jana hoga
