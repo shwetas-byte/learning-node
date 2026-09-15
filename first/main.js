@@ -1,12 +1,16 @@
-const fun = require('./first')
-const multi = require('./module/multi')
-const newfile= require("../newfile")
+// const fun = require('./first')
+// const multi = require('./module/multi')
+// const newfile= require("../newfile")
+import multi from './module/multi.js'
+import Add from './add.js'
 console.log("Main file")
 
 // fun.sum()  //ye jb normal object export kraa
 // fun.sub()
 
-fun.f1()    //ye jb key bnake export kra hogaaa
-fun.f2()
+// fun.f1()    //ye jb key bnake export kra hogaaa
+// fun.f2()
+// multi()
 multi()
-newfile()
+Add()
+// newfile()
