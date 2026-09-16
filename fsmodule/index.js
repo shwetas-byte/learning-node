@@ -31,16 +31,17 @@ let fs = require('fs')
 // read file -- help in reading file
 // syntax-- fs.readFile('filename','utf-8',(e,data)={})  ---- in this call bacxk function will help in reading data and error handling
 // we are writin utf-8 because without it data comes in encoded form with the help of this we are able to get the data in redable form
-fs.readFile("firstfile.txt",'utf-8',(er,data)=>{
-    if(er){
-        console.log("Error",er);
+// fs.readFile("firstfile.txt",'utf-8',(er,data)=>{
+//     if(er){
+//         console.log("Error",er);
         
-    }
-    else{
-        console.log("File readed",data);
+//     }
+//     else{
+//         console.log("File readed",data);
         
-    }
-})
+//     }
+// })
+
 
 
 //appendfile -- help in adding text to existing file also makes the new file 
@@ -57,3 +58,38 @@ fs.readFile("firstfile.txt",'utf-8',(er,data)=>{
 // })
 
 
+
+// mkdir -- used to make new directory/folder
+// syntax-- fs.mkdir('folder name',callback function)
+// fs.mkdir('new folder 3',(er)=>{
+//     if(er){
+//         console.log("Error",er);
+        
+//     }
+//     else{
+//         fs.writeFile('./new folder 3/newfile.txt',"Hello from new file",(er)=>{
+//             if(er){
+//                 console.log("Error",er);
+                
+//             }
+//             else{
+//                 console.log("File successfuly created");
+                
+//             }
+//         })
+        
+//     }
+// })
+
+
+// unlink --- used to delete the file
+// fs.unlink('firstdile.txt',(e)=>{
+//     if(e){
+//         console.log("Erroe",e);
+        
+//     }
+//     else{
+//         console.log("file deleted");
+        
+//     }
+// })
