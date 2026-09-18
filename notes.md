@@ -49,3 +49,13 @@ readfile()
  import krte vkt 
 const fs = require('fs')
 fs.readFile()
+
+note.js drawback
+server bar bar refresh krna pdta hai koi bhi updation ke badd
+
+phle node mon install krna pdta thaa jisse bar bar update nhi krna pdta haii but update ke bad node ne khud ki ek command bna dii
+
+node --watch file_name
+
+local host: port no. ki jghh
+127.0.0.1:port no.
