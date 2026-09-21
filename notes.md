@@ -59,3 +59,107 @@ node --watch file_name
 
 local host: port no. ki jghh
 127.0.0.1:port no.
+
+
+🔹 5 Main Types-------
+
+| Range   | Type          | Meaning                        |
+| ------- | ------------- | ------------------------------ |
+| **1xx** | Informational | Request process ho rahi hai    |
+| **2xx** | Success       | Request successful             |
+| **3xx** | Redirection   | Aage redirect karna            |
+| **4xx** | Client Error  | Client ki request mein problem |
+| **5xx** | Server Error  | Server ki taraf problem        |
+
+
+🔹 1xx – Informational
+| Code | Meaning             | Hinglish                             |
+| ---- | ------------------- | ------------------------------------ |
+| 100  | Continue            | Request ka next part bhej sakte hain |
+| 101  | Switching Protocols | Protocol change ho raha hai          |
+| 103  | Early Hints         | Preliminary response information     |
+
+
+🔹 2xx – Success
+| Code | Meaning         | Hinglish                               |
+| ---- | --------------- | -------------------------------------- |
+| 200  | OK              | Request successful                     |
+| 201  | Created         | Resource create ho gaya                |
+| 202  | Accepted        | Request accept hui, processing pending |
+| 204  | No Content      | Success, but response body nahi hai    |
+| 206  | Partial Content | Data ka partial part mila              |
+
+
+
+🔹 3xx – Redirection
+| Code | Meaning            | Hinglish                        |
+| ---- | ------------------ | ------------------------------- |
+| 300  | Multiple Choices   | Multiple options available      |
+| 301  | Moved Permanently  | URL permanently change          |
+| 302  | Found              | Temporary redirect              |
+| 303  | See Other          | Dusre URL par result dekho      |
+| 304  | Not Modified       | Resource mein change nahi hua   |
+| 307  | Temporary Redirect | Temporary redirect, method same |
+| 308  | Permanent Redirect | Permanent redirect, method same |
+
+
+
+🔹 4xx – Client Error
+| Code | Meaning                | Hinglish                                       |
+| ---- | ---------------------- | ---------------------------------------------- |
+| 400  | Bad Request            | Request galat hai                              |
+| 401  | Unauthorized           | Authentication required                        |
+| 402  | Payment Required       | Payment-related status                         |
+| 403  | Forbidden              | Access allowed nahi                            |
+| 404  | Not Found              | Resource nahi mila                             |
+| 405  | Method Not Allowed     | HTTP method allowed nahi                       |
+| 406  | Not Acceptable         | Acceptable response nahi mil sakta             |
+| 408  | Request Timeout        | Request mein bahut time laga                   |
+| 409  | Conflict               | Request mein conflict                          |
+| 410  | Gone                   | Resource permanently unavailable               |
+| 413  | Content Too Large      | Request bahut badi hai                         |
+| 415  | Unsupported Media Type | Data format supported nahi                     |
+| 422  | Unprocessable Content  | Request samajh aayi, par process nahi ho sakti |
+| 429  | Too Many Requests      | Bahut zyada requests                           |
+
+
+🔹 5xx – Server Error
+| Code | Meaning                    | Hinglish                               |
+| ---- | -------------------------- | -------------------------------------- |
+| 500  | Internal Server Error      | Server ke andar error                  |
+| 501  | Not Implemented            | Functionality supported nahi           |
+| 502  | Bad Gateway                | Invalid gateway response               |
+| 503  | Service Unavailable        | Server temporarily unavailable         |
+| 504  | Gateway Timeout            | Gateway ko time par response nahi mila |
+| 505  | HTTP Version Not Supported | HTTP version supported nahi            |
+| 507  | Insufficient Storage       | Server ke paas storage insufficient    |
+| 508  | Loop Detected              | Infinite loop detect hua               |
+
+
+
+
+HTTP Status Codes ke Types:--------
+
+| Code    | Meaning               | Hinglish Explanation                  |
+| ------- | --------------------- | ------------------------------------- |
+| **200** | OK                    | Request successfully complete ho gayi |
+| **201** | Created               | New resource create ho gaya           |
+| **301** | Moved Permanently     | URL permanently change ho gaya        |
+| **302** | Found                 | Temporary redirect                    |
+| **400** | Bad Request           | Request galat format mein hai         |
+| **401** | Unauthorized          | Authentication required               |
+| **403** | Forbidden             | Access allowed nahi hai               |
+| **404** | Not Found             | Requested page/resource nahi mila     |
+| **405** | Method Not Allowed    | HTTP method allowed nahi hai          |
+| **500** | Internal Server Error | Server ke andar error                 |
+| **502** | Bad Gateway           | Gateway ko invalid response mila      |
+| **503** | Service Unavailable   | Server temporarily available nahi hai |
+
+
+// package jsonn install
+npm init --- sare ko enter enter krna pdega
+npm init-y  ----jb direct package.json install krna ho
+
+
+// express -- frame work of node js
+used to handle apii and create by default server
