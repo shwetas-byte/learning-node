@@ -1,0 +1,5 @@
+Student file 
+Name : ShwetaClass: 12th 
+Subject: Maths 
+Attendance: Present 
+Marks: 90 
