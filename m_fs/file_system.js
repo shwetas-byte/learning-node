@@ -16,10 +16,3 @@ console.log('file is readed');
 fs.mkdirSync("New folder")
 
 
-
-
-
-
-
-
-
