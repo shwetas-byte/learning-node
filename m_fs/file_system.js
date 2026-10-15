@@ -17,10 +17,3 @@ fs.mkdirSync("New folder")
 
 
 
-
-
-
-
-
-
-
