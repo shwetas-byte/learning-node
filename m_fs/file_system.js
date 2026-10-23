@@ -14,3 +14,8 @@ console.log('file is readed');
 // console.log("file is deleted");
 // crete folder
 fs.mkdirSync("New folder")
+
+
+
+
+
