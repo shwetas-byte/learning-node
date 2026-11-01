@@ -30,6 +30,9 @@ console.log(nums);
 
 // q3 Write a function that accepts a string and return the number of vowels in it
 // let a= prompt("Enter a value")
+
+
+
 // count=0
 // for (let i=0;i<a.length;i++){
 // let ch=a[i]
